@@ -1,5 +1,15 @@
 #!/usr/bin/python3
+
 def pascal_triangle(n):
+    """
+    Generate a list of lists of integers.
+
+    Args:
+    - n (int): The number of sublists to generate.
+
+    Returns:
+    - list: A list of lists of integers.
+    """
     if n <= 0:
         return []
     triangle = []
